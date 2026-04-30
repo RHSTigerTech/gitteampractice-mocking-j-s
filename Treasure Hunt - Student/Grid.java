@@ -29,12 +29,12 @@ public class Grid {
         kingdom[1][0].addItem(new Treasure("Coin", 5));
         kingdom[1][2].addItem(new Treasure("Key", 50));
         kingdom[0][3].addItem(new Treasure("Toby Drink", 50));
-
+        kingdom[1][1].addItem(new Treasure("Chug-Jug", 676676767));
         // Add Foes that you would need to battle or interact with...
-        
-        kingdom[1][2].addFoe(new Foe("Guart", 7));
-        kingdom[1][0].addFoe(new Foe("Toby", 100000));        kingdom[0][3].addFoe(new Foe("Evil Goblin", 10));
 
+        kingdom[1][2].addFoe(new Foe("Guart", 7));
+        kingdom[1][0].addFoe(new Foe("Toby", 100000));
+        kingdom[0][3].addFoe(new Foe("Evil Goblin", 10));
 
     }
 
