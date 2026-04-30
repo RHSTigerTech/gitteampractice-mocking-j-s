@@ -35,6 +35,7 @@ public class Grid {
         kingdom[1][2].addFoe(new Foe("Guart", 7));
         kingdom[1][0].addFoe(new Foe("Toby", 100000));
         kingdom[0][3].addFoe(new Foe("Evil Goblin", 10));
+        kingdom[2][3].addFoe(new Foe("Evil Goblin2", 10));
 
     }
 
