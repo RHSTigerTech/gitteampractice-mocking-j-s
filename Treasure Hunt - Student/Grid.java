@@ -28,6 +28,7 @@ public class Grid {
         kingdom[0][2].addItem(new Treasure("Purse", 10));
         kingdom[1][0].addItem(new Treasure("Coin", 5));
         kingdom[1][2].addItem(new Treasure("Key", 50));
+        kingdom[0][3].addItem(new Treasure("Toby Drink", 50));
 
         // Add Foes that you would need to battle or interact with...
         
